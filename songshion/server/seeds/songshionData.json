@@ -1,0 +1,6 @@
+[
+    { "title": "Study React", "completed": true },
+    { "title": "Go fishing", "completed": false },
+    { "title": "Paint tool shed", "completed": false },
+    { "title": "Cook healthy meals", "completed": true }
+  ]

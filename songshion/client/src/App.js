@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -27,12 +26,4 @@ export default App;
 
 
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <UserInfo/>
-//     </div>
-//   );
-// }
 
-// export default App;

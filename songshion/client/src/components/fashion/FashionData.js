@@ -1,43 +1,4 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
-import UserInfo from './components/userinfo/UserInfo';
-import Events from './components/events/Events';
-import Fashion from './components/fashion/Fashion';
-
-const App = () => {
-  return (
-    <div>
-      <Router>
-        <Switch>
-          <Route path="/" exact>
-            <UserInfo />
-          </Route>
-          <Route path="/events" exact>
-            <Events />
-          </Route>
-          <Route path="/fashion" exact>
-            <Fashion />
-          </Route>
-        </Switch>
-      </Router>
-    </div>
-  );
-};
-
-export default App;
-
-
-
-
-
-
-
-
-
-
-
-/* 
+import React, { useState, useEffect } from 'react';
 export default function App() {
   const [search, setSearch] = useState('');
   const [list, setList] = useState([]);
@@ -82,8 +43,8 @@ export default function App() {
           placeholder="search for giphy"
           onChange={handleInput}
         />
-
+        <input type="button" value="SEARCH" onClick={handleClick} />
       </form>
     </div>
   );
-} */
+}

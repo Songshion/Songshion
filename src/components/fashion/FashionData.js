@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import EventsData from '../events/EventsData';
 export default function App() {
   const [search, setSearch] = useState('');
   const [list, setList] = useState([]);
@@ -36,7 +37,7 @@ export default function App() {
   // })
   return (
     <div className="App">
-      <h1> Giphy Image Finder</h1>
+      <h1> Outfit Finder</h1>
       <form>
         <input
           type="text"

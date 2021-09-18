@@ -1,10 +1,10 @@
-import FashionData from '../fashion/FashionData';
+import FashionData from './FashionData';
 
 function Fashion() {
     return (
 <div>
 <header>Songshion</header>
-<Fashion />
+<FashionData />
 
 </div>
 )

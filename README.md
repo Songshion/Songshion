@@ -1,14 +1,16 @@
 # Songshion
 
-## URLs:
-Live Deployed Application (via Heroku) - https://secret-plateau-41597.herokuapp.com/
-GitHub Repo - https://github.com/Songshion/Songshion
+## Live Deployed Application (via Heroku)
+https://secret-plateau-41597.herokuapp.com/
 
+## GitHub Repository
+https://github.com/Songshion/Songshion
+​
 
-## Application Description:
-A simple app that searches for live music events based on your city.
+## Application Description
+A simple app that searches for live music events based on any major city.
 
-## User Story:
+## User Story
 AS A User,
 I WANT to search for live music.
 SO THAT I can find upcoming live music near me.
@@ -24,12 +26,12 @@ THEN I a new page displays similar fashion ideas based on the artist.
 <img src="./images/songshionwireframe.png" alt="screencap of Songshion wireframe" />
 
 
-### CSS Libraries 
+## CSS Libraries 
 ​
 [Link to Ant Design React](https://ant.design/docs/react/introduce)
 ​
 ​
-### Application Authors:
+## Application Authors:
 ​
 [Kyaah Ellis](https://github.com/KyaahB)
 ​
@@ -40,7 +42,7 @@ THEN I a new page displays similar fashion ideas based on the artist.
 [Sydney Williams](https://github.com/sydneyw-cyber)
 ​
 ​
-### Songshion Working Agreement
+## Songshion Working Agreement
 ​
 1. Working Through Disagreements:
    a. To work through disagreements we will talk through the opposing sides and come to the most logical solution that the majority agrees on.

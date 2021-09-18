@@ -8,7 +8,7 @@ https://github.com/Songshion/Songshion
 ​
 
 ## Application Description
-A simple app that searches for live music events based on your city.
+A simple app that searches for live music events based on any major city.
 
 ## User Story
 AS A User,

@@ -17,7 +17,7 @@ SO THAT I can find upcoming live music near me.
 GIVEN I am interested in a live music event.
 WHEN I click the search city button.
 THEN the page will display live music events with venue name, address, date/time, and genre.
-WHEN I click on a live-music image,
+WHEN I click on a live-music image
 THEN I a new page displays similar fashion ideas based on the artist.
 
 ## Wireframe

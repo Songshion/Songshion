@@ -1,5 +1,8 @@
+import { Card } from 'antd';
 import React, { useState, useEffect } from 'react';
 import Moment from 'moment';
+// import ''
+
 export default function EventData() {
   const [search, setSearch] = useState('');
   const [list, setList] = useState([]);
@@ -70,11 +73,43 @@ export default function EventData() {
   );
   const eventsList = fetchData.length
   ?fetchData.map(event => <div key={event.id}>
-    <img src={event.images[0].url} alt={event.name}/>
+        <Card
+          title={event.name}
+          style={{
+            boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.5)',
+            padding: '.5rem 1rem',
+            margin: '5rem',
+            height: 'auto',
+            width: '75%',
+            backgroundColor: '#00000012',
+            textAlign: 'center',
+          }}
+        >
+          <img
+            style={{ 
+              padding: '3ex',
+              width: '300px' 
+            }}
+            alt={event.name}
+            src={event.images[0].url}
+          />
+          <p class="genre">Genre: {event.classifications[0].genre.name}</p>
+          <p>{event.venue}</p>
+
+          <div
+            className="cardcontainer"
+            style={{ position: 'static', 
+            bottom: '0', 
+            display: 'inline-block' ,
+            backgroundColor: '#e28743' }}
+          >
+          </div>
+        </Card>
+    {/* <img src={event.images[0].url} alt={event.name}/>
     <p>{event.name}</p>
     <p>{event.classifications[0].genre.name}</p>
     <p>{event.venue}</p>
-    <p>{event.dates.start.localDate}{event.dates.start.localTime}</p>
+    <p>{event.dates.start.localDate}{event.dates.start.localTime}</p> */}
     </div>)
   : <p>No data</p>
   // const eventsList = events.map((fetchName, index) =>{

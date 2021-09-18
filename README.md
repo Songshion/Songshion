@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Songshion
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## URLs:
+Live Deployed Application (via Heroku) - https://secret-plateau-41597.herokuapp.com/
+GitHub Repo - https://github.com/Songshion/Songshion
 
-## Available Scripts
 
-In the project directory, you can run:
+## Application Description:
+A simple app that searches for live music events based on your city.
 
-### `yarn start`
+## User Story:
+AS A User,
+I WANT to search for live music.
+SO THAT I can find upcoming live music near me.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Acceptance Criteria
+GIVEN I am interested in a live music event.
+WHEN I click the search city button.
+THEN the page will display live music events with venue name, address, date/time, and genre.
+WHEN I click on a live-music image
+THEN I a new page displays similar fashion ideas based on the artist.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Wireframe
+<img src="./images/songshionwireframe.png" alt="screencap of Songshion wireframe" />
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### CSS Libraries 
+​
+[Link to Ant Design React](https://ant.design/docs/react/introduce)
+​
+​
+### Application Authors:
+​
+[Kyaah Ellis](https://github.com/KyaahB)
+​
+[Tejesh Patel](https://github.com/tejeshpatel)
+​
+[Joseph Sumis](https://github.com/JSumis)
+​
+[Sydney Williams](https://github.com/sydneyw-cyber)
+​
+​
+### Songshion Working Agreement
+​
+1. Working Through Disagreements:
+   a. To work through disagreements we will talk through the opposing sides and come to the most logical solution that the majority agrees on.
+  
+2. When We’ll Work 
+   a. We’re going to be honest with each other about our abilities and other life commitments when scheduling project work time. We’ll communicate with each other at least once a day to make sure the work is getting done.
+​
+3. How We’ll Make Sure We’re All Included 
+   a. In order to make sure we are all committing at a similar pace, and work is split up fairly. We will accomplish this by pairing up and splitting up the work based on our strengths.

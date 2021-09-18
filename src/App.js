@@ -12,7 +12,7 @@ const App = () => {
       <Router>
         <Switch>
           <Route path="/" exact>
-            <UserInfo />
+            <Events />
           </Route>
           <Route path="/events" exact>
             <Events />

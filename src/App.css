@@ -1,3 +1,5 @@
+
+
 #root {
   --hot-pink: #f72585ff;
 --pink-purple: #b5179eff;
@@ -12,23 +14,41 @@
 }
 
 .App{
-  background-color: var(--deep-blue);
-  
+  background-color:#8FBB99;
+  text-align: center;
+  padding-top: 5%;
 }
 
-header{
-  color: var(--hot-pink);
+.cityenter{
   text-align: center;
-  font-size: 60px;
+  height: 40px;
+  width: 500px;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+button{
+  height: 60px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+/* songshion header title */
+header{
+  color: #B0FE76;
+  background-color: #363635;
+  text-align: center;
+  font-size: 10rem;
   font-style: oblique;
   font-weight: bolder;
-  text-shadow: #b5179eff 2px 2px;
-  text-decoration:underline;
+  padding-bottom: 30px;
 }
 
+/* Please enter your city */
 h1{
   color: var(--pink-purple);
-  font-style: oblique;
+  color: #363635;
+  font-size: 76px;
 }
 
 
@@ -50,9 +70,16 @@ h1{
   margin-bottom: 0px;
 } */
 
-button{
-  color: var(--purple);
-  font-weight: bolder;
-  
-
+.cardcontainer {
+font-weight: bolder;
+font-size: 100px;
+background-color: var(--ultramarine-blue);
 }
+
+
+
+.cardsubdetails{
+font-size:40px;
+color: #B0FE76;
+}
+

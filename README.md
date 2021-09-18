@@ -33,11 +33,11 @@ THEN I a new page displays similar fashion ideas based on the artist.
 ​
 ## Application Authors:
 ​
-[Kyaah Ellis](https://github.com/KyaahB)
+[Kyaah Ellis](https://github.com/KyaahB) <br />
 ​
-[Tejesh Patel](https://github.com/tejeshpatel)
+[Tejesh Patel](https://github.com/tejeshpatel) <br />
 ​
-[Joseph Sumis](https://github.com/JSumis)
+[Joseph Sumis](https://github.com/JSumis) <br />
 ​
 [Sydney Williams](https://github.com/sydneyw-cyber)
 ​

@@ -35,7 +35,7 @@ export default function EventData() {
     const API_KEY = 'aTlH3EnwmeBRZCg1uZj01xUefGqN8bGI'
     console.log("hello", secondHalf);
     const realEndDate = firstHalf + '0' + endDate.toString() + secondHalf;
-    console.log("firstHalf", firstHalf);
+    console.log("firstHalf of endsearchtime", firstHalf);
     console.log("endDate", endDate);
     console.log("secondHalf", secondHalf);
     console.log("realEndDate", realEndDate);

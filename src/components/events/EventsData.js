@@ -34,16 +34,22 @@ export default function EventData() {
     const secondHalf = date.slice(10, 19)
     const API_KEY = 'aTlH3EnwmeBRZCg1uZj01xUefGqN8bGI'
     console.log("hello", secondHalf);
-    const realEndDate = firstHalf + endDate.toString() + secondHalf;
+    const realEndDate = firstHalf + '0' + endDate.toString() + secondHalf;
+    console.log("firstHalf", firstHalf);
+    console.log("endDate", endDate);
+    console.log("secondHalf", secondHalf);
     console.log("realEndDate", realEndDate);
     console.log(date)
     console.log(Number(date.slice(8, 10)) + 3)
     try {
       const response = await fetch(
         // 2021-09-16T21:30:36-05:00
-        `https://app.ticketmaster.com/discovery/v2/events.json?classificationName=music&city=${search}&localStartEndDateTime=${startDate},${realEndDate}&apikey=${API_KEY}`,
+        `https://floating-badlands-12965.herokuapp.com/https://app.ticketmaster.com/discovery/v2/events.json?classificationName=music&city=${search}&localStartEndDateTime=${startDate},${realEndDate}&apikey=${API_KEY}`,
         {
           method: 'GET',
+          headers: {
+            'X-Requested-With': 'XMLHttpRequest'
+          },
         }
       );
       const fetchedQuery = await response.json();
